@@ -30,7 +30,7 @@
         #### dir, rc, root color
         cols=`tput colors`                              # in emacs shell-mode tput colors returns -1
         if [[ -n "$cols" && $cols -ge 8 ]];  then       #  if terminal supports colors
-                dir_color=${dir_color:-CYAN}
+                dir_color=${dir_color:-BLACK}
                 rc_color=${rc_color:-red}
                 user_id_color=${user_id_color:-blue}
                 root_id_color=${root_id_color:-magenta}
